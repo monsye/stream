@@ -1,0 +1,17 @@
+bs4==0.0.2
+chromedriver-autoinstaller==0.6.2
+fake-useragent==1.5.1
+googlesearch-python==1.2.3
+lxml==4.9.3
+selenium==3.141.0
+streamlit==1.10.0
+subprocess
+sys
+os
+time
+_datetime
+nltk
+smtplib
+email.mime.text
+email.mime.multipart
+email.mime.application
