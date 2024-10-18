@@ -10,7 +10,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import chromedriver_autoinstaller
-
+import os
+os.chmod('/path/to/chromedriver', 0755)
 def Analyze(url):
     '''if (len(sys.argv) < 1):
         print("URL not found")
