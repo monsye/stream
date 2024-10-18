@@ -48,8 +48,7 @@ if st.session_state.view == 'main':
         TimeInMin = 0
         Start = time()
 
-        for j in search(query, tld="com.tw", num=10, stop=6, pause=14,
-                        user_agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:95.0) Gecko/20100101 Firefox/95.0"):
+        for j in search(query, lang="us", num_results=10):
             st.write(j)
             i += 1
             sleep(1)
