@@ -24,7 +24,7 @@ def Analyze(url):
     options = webdriver.ChromeOptions()
     #options.add_argument("--headless")
     # Initialize the webdriver (make sure you have the correct driver installed)
-    driver = webdriver.Chrome(options=options)  # Or webdriver.Firefox(), etc.
+    driver = webdriver.Chrome(options=options, executable_path=r'./chromedriver')  # Or webdriver.Firefox(), etc.
 
     # Navigate to the website
     driver.get(url)
